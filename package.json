@@ -1,0 +1,40 @@
+{
+  "name": "Brightplan",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "chart.js": "^2.4.0",
+    "css-loader": "^0.26.0",
+    "material-ui": "^0.16.4",
+    "node-sass": "^3.13.0",
+    "react": "15.4.1",
+    "react-chartjs": "^0.8.0",
+    "react-chartjs-2": "^1.5.1",
+    "react-native": "0.38.0",
+    "react-native-dropdown": "git+https://github.com/g6ling/react-native-dropdown.git",
+    "react-native-material-ui": "^1.4.0",
+    "react-native-modal-dropdown": "^0.4.0",
+    "react-native-pathjs-charts": "0.0.21",
+    "react-native-svg": "^4.4.0",
+    "react-native-vector-icons": "^0.8.5",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-promise": "^0.5.3",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1"
+  }
+}
