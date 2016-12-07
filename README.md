@@ -50,7 +50,7 @@ Two solutions.
 1. Use the webpack Hot dev server:
 ``npm start``
 The Hot watcher dev server provides by Webpack allows us to develop with a inline hot reload web server.
-The webapp will be available at this address: 127.0.0.1:555
+The webapp will be available at this address: http://127.0.0.1:5555/web/index.html
 You can update this address / port via the webpack.config.js file
 
 3. Build the web app:
@@ -65,7 +65,7 @@ You will not need the source files to launch it on a browser via the index.html 
 As for the Web project, I choose to use Material UI for React.
 
 ### Redux
-The Redux data structure is exactly the same than the web project. No change was done.
+The Redux data structure is exactly the same on Android and on the web project. No change was done.
 
 ### Code Reuse
 Basicaly, the main structure is the same than on the web project. But the UI rendering is totally different.
