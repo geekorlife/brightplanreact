@@ -34,6 +34,15 @@ Be sure that one physical device or emulator is connected with this command:
 After, launch the React CLI
 ``react-native run-android``
 
+### Issue know:
+Error: ``Execution failed for task ':app:dexDebug'.``
+After linked the both react lib (svg and icons), gradle can need to be cleaned with this command:
+``cd android/ && ./gradlew clean``
+When the command is done, yo ucan relaunch the react-native build
+``cd .. && react-native run-android``
+
+Error ``Execution failed for task ':app:installDebug'.``
+Be sure that your device is connected with a USB cable and that the ``USB Debugging`` is turned ON on your mobile.
 
 ## More details
 

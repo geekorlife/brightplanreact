@@ -1,0 +1,12 @@
+node_modules
+android/app/build/generated
+android/app/build/intermediates
+android/app/build/outputs
+android/app/build/tmp
+android/.gradle
+.DS_Store
+android/.DS_Store
+android/app/.DS_Store
+android/app/build/.DS_Store
+android/app/src/.DS_Store
+app/src/.DS_Store

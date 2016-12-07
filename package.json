@@ -7,6 +7,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "chart.js": "^2.4.0",
     "css-loader": "^0.26.0",
@@ -22,6 +26,7 @@
     "react-native-pathjs-charts": "0.0.21",
     "react-native-svg": "^4.4.0",
     "react-native-vector-icons": "^0.8.5",
+    "react-dom": "^0.14.3",
     "react-redux": "^4.4.6",
     "redux": "^3.6.0",
     "redux-promise": "^0.5.3",
