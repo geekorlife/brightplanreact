@@ -6,7 +6,7 @@ import React from 'react';
 import store from '../reduce/store';
 import NavBar from '../navbar/index';
 import RiskChoose from './riskChoose';
-import AddInvest from './AddInvest';
+import AddInvest from './addInvest';
 
 class Main extends React.Component{
     constructor(){

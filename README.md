@@ -26,7 +26,7 @@ Link the native vector icon lib and svg
 ``react-native link react-native-svg``
 
 
-## Launch the app
+## Launch the Native app
 
 Be sure that one physical device or emulator is connected with this command:
 ``adb devices``
@@ -43,6 +43,21 @@ When the command is done, yo ucan relaunch the react-native build
 
 Error ``Execution failed for task ':app:installDebug'.``
 Be sure that your device is connected with a USB cable and that the ``USB Debugging`` is turned ON on your mobile.
+
+## Launch the web app
+Two solutions.
+
+1. Use the webpack Hot dev server:
+``npm start``
+The Hot watcher dev server provides by Webpack allows us to develop with a inline hot reload web server.
+The webapp will be available at this address: 127.0.0.1:555
+You can update this address / port via the webpack.config.js file
+
+3. Build the web app:
+``npm run build``
+This command will generate the app.js file needed will of the css from the scss files.
+You will not need the source files to launch it on a browser via the index.html (files in the src folder). 
+
 
 ## More details
 

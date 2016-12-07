@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "webpack-dev-server",
+    "build": "webpack --config ./webpack.config.prod.js --progress --colors -p",
     "test": "jest"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "react": "15.4.1",
     "react-chartjs": "^0.8.0",
     "react-chartjs-2": "^1.5.1",
+    "react-dom": "^0.14.3",
     "react-native": "0.38.0",
     "react-native-dropdown": "git+https://github.com/g6ling/react-native-dropdown.git",
     "react-native-material-ui": "^1.4.0",
@@ -26,8 +28,8 @@
     "react-native-pathjs-charts": "0.0.21",
     "react-native-svg": "^4.4.0",
     "react-native-vector-icons": "^0.8.5",
-    "react-dom": "^0.14.3",
     "react-redux": "^4.4.6",
+    "react-tap-event-plugin": "^1.0.0",
     "redux": "^3.6.0",
     "redux-promise": "^0.5.3",
     "sass-loader": "^4.0.2",
