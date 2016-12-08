@@ -33,16 +33,32 @@ Be sure that one physical device or emulator is connected with this command:
 
 After, launch the React CLI
 ``react-native run-android``
+or 
+``npm run android``
 
 ### Issue know:
 Error: ``Execution failed for task ':app:dexDebug'.``
-After linked the both react lib (svg and icons), gradle can need to be cleaned with this command:
+
+Reason: After linked the both react lib (svg and icons), gradle can need to be cleaned with this command:
 ``cd android/ && ./gradlew clean``
-When the command is done, yo ucan relaunch the react-native build
-``cd .. && react-native run-android``
+
+When the command is done, you can relaunch the react-native build
+``cd .. && npm run android``
+
 
 Error ``Execution failed for task ':app:installDebug'.``
+
 Be sure that your device is connected with a USB cable and that the ``USB Debugging`` is turned ON on your mobile.
+
+
+Error ``Could not run adb reverse:``
+
+In this case, the app launch but with a red screen and with this message: ''Could not connect to the server''
+You can change how to laod the file on the app.
+Shake your phone until the dev menu appears. Click on ''Dev Settings'' and on ''Debug server host & port for device'' and enter the ip address of the machine who is running the react native CLI like that:
+``X.X.X.X:8081``
+
+
 
 ## Launch the web app
 Two solutions.

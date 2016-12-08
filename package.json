@@ -2,9 +2,12 @@
   "name": "Brightplan",
   "version": "0.0.1",
   "private": true,
+  "author": "Pascal Boudier",
+  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack --config ./webpack.config.prod.js --progress --colors -p",
+    "android": "react-native run-android",
     "test": "jest"
   },
   "dependencies": {
@@ -24,6 +27,7 @@
     "react-native": "0.38.0",
     "react-native-dropdown": "git+https://github.com/g6ling/react-native-dropdown.git",
     "react-native-material-ui": "^1.4.0",
+    "react-native-md-textinput": "^2.0.4",
     "react-native-modal-dropdown": "^0.4.0",
     "react-native-pathjs-charts": "0.0.21",
     "react-native-svg": "^4.4.0",
