@@ -51,6 +51,16 @@ const styles = StyleSheet.create({
         flex: 1, 
         backgroundColor: '#ffffff', 
         marginTop: 70
+    },
+    pieView:{
+        flex: 1, 
+        backgroundColor: '#ffffff', 
+        marginTop: 51
+    },
+    indexView:{
+        flex: 1, 
+        backgroundColor: '#ffffff', 
+        marginTop: 40
     }
 });
 
@@ -75,7 +85,7 @@ class Main extends React.Component {
         switch (route.id) {
             case 'first':
                 return (
-                    <View style={styles.mainView}>
+                    <View style={styles.indexView}>
                         <RiskChoose navigator={navigator} title="first" />
                     </View>
                 );
@@ -87,7 +97,7 @@ class Main extends React.Component {
                 );
             case 'third':
                 return (
-                    <View style={styles.mainView}>
+                    <View style={styles.pieView}>
                         <PieInvest navigator={navigator} title="third" />
                     </View>
                 );

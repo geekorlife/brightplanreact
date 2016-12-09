@@ -11,7 +11,8 @@ const labelInvest = ['Bonds', 'Stocks', 'Mutual Funds', 'Forex', 'Real Estate'];
 const styles = StyleSheet.create({
     title:{
         fontWeight: '500',
-        textAlign: 'center'
+        textAlign: 'center',
+        color:'white'
     },
     text: {
         justifyContent: 'center',
@@ -44,16 +45,19 @@ class advice extends React.Component{
         return (
             <View> 
 
-                <Text style={{textAlign :'center', fontWeight: '600',margin:10}}>
+                <Text style={{textAlign :'center', fontWeight: '600',margin:5}}>
                     We advice you to follow this investment:
                 </Text>
+                <View style={{backgroundColor:'#ffffff',paddingBottom:5,marginLeft:5,marginRight:5,paddingLeft:5,borderRadius:3}}>
 
-                <View  style={{flexDirection:'row'}}>
-                    <View style={{flex:1}}></View>
-                    <View  style={{flex:1, justifyContent:'center'}}><Text style={styles.title}>Your amount</Text></View>
-                    <View  style={{flex:1, justifyContent:'center'}}><Text style={styles.title}>Our Advices</Text></View>
+                    <View  style={{flexDirection:'row'}}>
+                        <View style={{flex:1}}></View>
+                        <View  style={{flex:1, justifyContent:'center'}}><Text style={styles.title}>Your amount</Text></View>
+                        <View  style={{flex:1, justifyContent:'center'}}><Text style={styles.title}>Our Advices</Text></View>
+                    </View>
+        
+                    {this.rendAdvice()}
                 </View>
-                {this.rendAdvice()}
             </View>
         )
     }

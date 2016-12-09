@@ -10,3 +10,7 @@ android/app/.DS_Store
 android/app/build/.DS_Store
 android/app/src/.DS_Store
 app/src/.DS_Store
+app/src/web/Chart.min.js
+app/src/web/Chart.min.js
+app/src/web/Chart-React-Native.js
+app/src/web/view.html

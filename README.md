@@ -24,6 +24,7 @@ install React native CLI
 Link the native vector icon lib and svg
 ``react-native link react-native-vector-icons``
 ``react-native link react-native-svg``
+``react-native link react-native-fs``
 
 
 ## Launch the Native app
