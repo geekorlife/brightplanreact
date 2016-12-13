@@ -2,111 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-85b22d3c46cb627dc98687af84e867608becf1d3.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-a609a1c2db488eb1c1e8dd8dfcea73895c4d3bab.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-86c987f865290eeb65cce242b4b386b90465a1b1.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-ade02ca9b9cb65c7a9976044e0e12f9f4ce6c267.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-12ae4511497d55d3f5e785aca3606bad07d7473d.jar" />
-    </item>
-    <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-e897bf9d5ff0bd5b860d2ea451211537a2ba35fb.jar" />
-    </item>
-    <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-9625871c7679f09f1ff3a3f89cc2ecc2f7cf7f0e.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-83809651116b589477eff47db2151bd11a92bc26.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-d2c201f5b458d257eccfa3eea843db9ce1d17c7e.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-f49495d4151f83c3eee7335a2b42b1e74aef2e03.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-4ad092dd31a3f3cebd4008b88f36fcb8bc54835c.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-069a8fcc2c155b6e9a120d145e4bc534866b5bcb.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-e8f0859fdc1cb38c2fdc68502078f901eae05b21.jar" />
-    </item>
-    <item
-        jar="/Users/user/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-2dd0e435e7f9e0b896d7fa123d895fc35d3cbd00.jar" />
-    </item>
-    <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-02e46aec32665838e1223b3304083aa611144262.jar" />
-    </item>
-    <item
         jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -114,53 +9,18 @@
         <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-0596d7aef45d20b16ed184167dc71fecd1e76fa7.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jar="/Users/user/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-186fd64499e814f47efb0cb8d9cc366b31206b61.jar" />
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-2dd0e435e7f9e0b896d7fa123d895fc35d3cbd00.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-d000cdd25ff4aee9c32884c463062d8711a68d41.jar" />
-    </item>
-    <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-48d27ec1be81a4f85a142113275fe61716987454.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/Brightplan/react-native-svg/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d9bf48903c6bb10921071dbdfd7fa3ec85e28a63">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-9e3637903be7b005adbc3e88b63f88b7ba346285.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.38.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ac7d1eaeecd12d434a64174bd460db21e708813a">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-8f1f3f71fbf5d75d2b7cd7cb6fc0dd408dc1d252.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/Brightplan/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="b69c938f4545b00b854a89f1da332e66e1c4e0d2">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-598bb7ca1521bfc5f5262659088d6917b012bac4.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/react-native-svg/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="da383aa860891c029acd9232d9a51d8677c7771f">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-ad0c1ad5f7fa4a3105ccdc1e1890968788bb8e5b.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-9625871c7679f09f1ff3a3f89cc2ecc2f7cf7f0e.jar" />
     </item>
     <item
         jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
@@ -170,25 +30,88 @@
         <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-4b6f9a1807f7c2e233e1b2ee9219991fde092b4c.jar" />
     </item>
     <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-75a51f7ce89c8aab87502735b63093757b802264.jar" />
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-a609a1c2db488eb1c1e8dd8dfcea73895c4d3bab.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/react-native-svg/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-ed3353f91644c52c94e60c8df0b9aca09b952416.jar" />
+        sha1="496b9c2e7e51cfbe7bab9d1bd3fcd597a9e076a9">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-ad0c1ad5f7fa4a3105ccdc1e1890968788bb8e5b.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-86c987f865290eeb65cce242b4b386b90465a1b1.jar" />
+    </item>
+    <item
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-85b22d3c46cb627dc98687af84e867608becf1d3.jar" />
+    </item>
+    <item
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-fddbc084a0b4eb0747f47ca35446f55bf5cc1f6d.jar" />
+    </item>
+    <item
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-972e31c275049309fb152772c56cfdbb3161180a.jar" />
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-ade02ca9b9cb65c7a9976044e0e12f9f4ce6c267.jar" />
+    </item>
+    <item
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-e897bf9d5ff0bd5b860d2ea451211537a2ba35fb.jar" />
+    </item>
+    <item
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/react-native-fs/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5aa7029a081eca36917641cf13dc17639ddfd81f">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-8c511080ff8190763bae6a6a657b93cfe57a1663.jar" />
+    </item>
+    <item
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-d2c201f5b458d257eccfa3eea843db9ce1d17c7e.jar" />
+    </item>
+    <item
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-a1ba6f23bf6f3f02755d77134ec9edc858cf9339.jar" />
+    </item>
+    <item
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-069a8fcc2c155b6e9a120d145e4bc534866b5bcb.jar" />
+    </item>
+    <item
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-89cc0f9ba305542f92c4e1c7589a01006beb7fa4.jar" />
     </item>
     <item
         jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.38.0/jars/classes.jar"
@@ -205,60 +128,25 @@
         <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-9b5145621b8c2b5bcd3037262b4063273b25c98c.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-6363c87909bfd56a4fc001ae9f54650e311b37df.jar" />
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-9a8c61e330be7640111d03c0968e6c3f89b501f7.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-ecc0a9282b8be30faaef40e390f2d85ea5483b43.jar" />
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-02e46aec32665838e1223b3304083aa611144262.jar" />
     </item>
     <item
         jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-25d0f97b473d07cfb98bf8e681aa5e04c35de3c9.jar" />
-    </item>
-    <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-a1ba6f23bf6f3f02755d77134ec9edc858cf9339.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f2065432fc89b56515b55a3b6d134acaa8b074e1">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-5608300cf1d37adf4538d4c40438a231aa831315.jar" />
-    </item>
-    <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-9a8c61e330be7640111d03c0968e6c3f89b501f7.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.38.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1ce478946caf7789e5c617b9b7a8290cf8b863fa">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-af9d0e49dca4a293550588a6ebf555218d282d76.jar" />
-    </item>
-    <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-89cc0f9ba305542f92c4e1c7589a01006beb7fa4.jar" />
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-25d0f97b473d07cfb98bf8e681aa5e04c35de3c9.jar" />
     </item>
     <item
         jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
@@ -268,25 +156,32 @@
         <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-38f9e19bc3dc67fb66e4567843448e2238fa2b3c.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/classes-f65192eda83cc393728a6040f04c840173f91430.jar" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-f49495d4151f83c3eee7335a2b42b1e74aef2e03.jar" />
     </item>
     <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/react-native-fs/unspecified/jars/classes.jar"
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="22fd9b6d5cd981d4fbc32127286a5446c8b31405">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-8c511080ff8190763bae6a6a657b93cfe57a1663.jar" />
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-48d27ec1be81a4f85a142113275fe61716987454.jar" />
     </item>
     <item
-        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jar="/Users/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/user/Web/brightplannative/Brightplan/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-fddbc084a0b4eb0747f47ca35446f55bf5cc1f6d.jar" />
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-75a51f7ce89c8aab87502735b63093757b802264.jar" />
+    </item>
+    <item
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b7ed1cee3a7999e76270cc261a8e886c800c1361">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-5608300cf1d37adf4538d4c40438a231aa831315.jar" />
     </item>
 
 </items>
