@@ -8,6 +8,8 @@ import ReactNative from 'react-native';
 import { COLOR, Icon } from 'react-native-material-ui';
 import Button from '../button';
 import {PostMessage, StringToData} from './postWebViewMsg';
+import SplashScreen from "rn-splash-screen";
+
 const {
     Slider,
     Text,
@@ -98,7 +100,6 @@ class riskChoose extends React.Component {
             secondButton: amount > 0
         });
         if (!this.bindView && this.webview) {
-            this.webview.reload();
             this.bindView = PostMessage(this.webview);
         }
         setTimeout(function(){
@@ -128,6 +129,12 @@ class riskChoose extends React.Component {
 
     respondToOnMessage(e){
         console.log('respondToOnMessage',e);
+    }
+
+    hideSplash(){
+        setTimeout(function(){
+            SplashScreen.hide();
+        },800);
     }
 
     render() {
@@ -165,7 +172,7 @@ class riskChoose extends React.Component {
                         source={{ uri: 'file:///android_asset/chatview.html'}}
                         injectedJavaScript={dougNut}
                         onMessage={this.respondToOnMessage}
-                        renderLoading={this.renderLoading}
+                        renderLoading={this.hideSplash()}
                         startInLoadingState
                     />
                 </View>

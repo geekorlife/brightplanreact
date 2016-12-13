@@ -4095,8 +4095,21 @@ module.exports = function(Chart) {
 				return;
 			}
 
-			canvas.width = chart.width = newWidth;
-			canvas.height = chart.height = newHeight;
+			if (newWidth > 0) {
+				canvas.width = this.chart.width = newWidth;
+			}
+			else {
+				canvas.width = this.chart.width;
+			}
+					
+			if (newHeight > 0) {
+				canvas.height = this.chart.height = newHeight;
+			}
+			else {
+				canvas.height = this.chart.height;
+			}
+					
+
 			canvas.style.width = newWidth + 'px';
 			canvas.style.height = newHeight + 'px';
 

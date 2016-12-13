@@ -29,11 +29,10 @@ class Main extends Component {
             </ThemeProvider>
         );
     }
-}
+};
 
 
 export default class Brightplan extends Component {
-  
   render() {
     return (
       <Provider store={store}>
@@ -41,6 +40,6 @@ export default class Brightplan extends Component {
       </Provider>
     );
   }
-}
+};
 
 AppRegistry.registerComponent('Brightplan', () => Brightplan);
