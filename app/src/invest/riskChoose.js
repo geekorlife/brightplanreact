@@ -162,7 +162,7 @@ class riskChoose extends React.Component {
                             height: width/1.2,
                             width: width/1.2
                         }}
-                        source={require('../web/chatview.html')}
+                        source={{ uri: 'file:///android_asset/chatview.html'}}
                         injectedJavaScript={dougNut}
                         onMessage={this.respondToOnMessage}
                     />
@@ -182,7 +182,7 @@ class riskChoose extends React.Component {
                         textStyle={styles.textButton}
                         upperCase={true}
                         icon="description"
-                        text='enter your current investments'
+                        text='enter your current investmentsss'
                     />
                     
                     {secondButton()}

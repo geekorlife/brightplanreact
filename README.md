@@ -37,6 +37,32 @@ After, launch the React CLI
 or 
 ``npm run android``
 
+### Deploy apk
+In the Android folder, run this cmd:
+
+``curl "http://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"``
+
+Then run this cmd:
+``./gradlew assembleRelease``
+
+Gradle will create the apk in this folder: ``$ROOT/android/build/outputs/apk/app-release-unsigned.apk``
+
+Be sure that you already have a valid keystore, if not follow this to create one:
+
+``
+// To generate keystore
+keytool -genkey -v -keystore my-keystore.keystore -alias name_alias -keyalg RSA -validity 10000
+``
+
+Then sign the apk:
+
+``
+//To sign an apk
+jarsigner -verbose -keystore <path of my-keystore.keystore> <path of apk>  alias_name
+ex: jarsigner -verbose -keystore brightplan.keystore app/build/outputs/apk/app-release-unsigned.apk  brightplan
+``
+
+
 ### Issue know:
 Error: ``Execution failed for task ':app:dexDebug'.``
 
@@ -54,14 +80,21 @@ Be sure that your device is connected with a USB cable and that the ``USB Debugg
 
 Error ``Could not run adb reverse:``
 
-In this case, the app launch but with a red screen and with this message: ''Could not connect to the server''
-You can change how to laod the file on the app.
-Shake your phone until the dev menu appears. Click on ''Dev Settings'' and on ''Debug server host & port for device'' and enter the ip address of the machine who is running the react native CLI like that:
+In this case, your are trying to install the debug apk on an Android version less than 5.0 . 
+The app is launching but with a red screen and with this message: ''Could not connect to the server''.
+
+You have to change how to load the file on the debug app.
+Shake your phone until the dev menu appears. Click on ``Dev Settings`` and on ``Debug server host & port for device``. 
+
+Enter the ip address of the machine who is running the react native CLI like that:
 ``X.X.X.X:8081``
 
 
 
 ## Launch the web app
+First, install Webpack:
+``npm install webpack -g``
+
 Two solutions.
 
 1. Use the webpack Hot dev server:

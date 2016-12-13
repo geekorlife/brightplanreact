@@ -246,7 +246,7 @@ class pieInvest extends React.Component {
                                 height: width / 2,
                                 width: width / 2
                             }}
-                            source={require('../web/pierisk.html')}
+                            source={{ uri: 'file:///android_asset/pierisk.html'}}
                             injectedJavaScript={piedata}
                             onMessage={this.respondToOnMessage}
                             />
@@ -261,7 +261,7 @@ class pieInvest extends React.Component {
                                 height: width / 2,
                                 width: width / 2
                             }}
-                            source={require('../web/pierisk.html')}
+                            source={{ uri: 'file:///android_asset/pierisk.html'}}
                             injectedJavaScript={pieAdvice}
                             onMessage={this.respondToOnMessage}
                             />

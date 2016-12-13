@@ -14,3 +14,11 @@ app/src/web/Chart.min.js
 app/src/web/Chart.min.js
 app/src/web/Chart-React-Native.js
 app/src/web/view.html
+android/app/src/main/assets/index.android.bundle
+**/.DS_Store
+android/app/build/outputs/apk/app-debug.apk
+android/app/build/outputs/apk/app-debug-unaligned.apk
+android/app/build/outputs/apk/app-release-unaligned.apk
+android/app/build/outputs/apk/app-release-unsigned.apk
+android/app/app-debug.apk
+android/app/app-release-unsigned.apk
