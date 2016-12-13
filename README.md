@@ -38,12 +38,12 @@ or
 ``npm run android``
 
 ### Deploy apk
-In the Android folder, run this cmd:
+In the Root folder, run this cmd:
 
 ``curl "http://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"``
 
 Then run this cmd:
-``./gradlew assembleRelease``
+``cd android && ./gradlew assembleRelease``
 
 Gradle will create the apk in this folder: ``$ROOT/android/build/outputs/apk/app-release-unsigned.apk``
 

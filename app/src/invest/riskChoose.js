@@ -165,6 +165,8 @@ class riskChoose extends React.Component {
                         source={{ uri: 'file:///android_asset/chatview.html'}}
                         injectedJavaScript={dougNut}
                         onMessage={this.respondToOnMessage}
+                        renderLoading={this.renderLoading}
+                        startInLoadingState
                     />
                 </View>
                 
