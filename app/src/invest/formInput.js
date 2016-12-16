@@ -3,6 +3,10 @@ import ReactNative from 'react-native';
 import TextField from 'react-native-md-textinput';
 import Button from '../button';
 import { COLOR } from 'react-native-material-ui';
+import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
+
+import { Hoshi } from 'react-native-textinput-effects';
+
 const {
     Slider,
     Text,
@@ -56,21 +60,25 @@ class formInput extends React.Component {
         this.setState({ investValue: newMap });
     }
 
-    componentDidUpdate(prev, news) {
-
-    }
-
     rendTextField(i,txt) {
+        const cc = () => console.log('CLICK');
         return (
-            <TextField
-                value={this.state.investValue[i].value}
-                label={txt}
-                highlightColor={'#00BCD4'}
-                keyboardType={'numeric'}
-                onChangeText={(text) => {
-                    this.addValue(text, i);
-                } }
+            <View style={{marginBottom: 15}}>
+            
+                <Hoshi
+                    label={txt}
+                    borderColor={'#4dc3f2'}
+                    labelStyle={{ color: '#4dc3f2' }}
+                    onChangeText={(text) => {
+                        this.addValue(text, i);
+                    }}
+                    onFocus={cc}
+                    keyboardType="numeric"
+                    iconClass={FontAwesomeIcon}
+            iconName={'pencil'}
+            iconColor={'white'}
                 />
+            </View>
         )
     }
 

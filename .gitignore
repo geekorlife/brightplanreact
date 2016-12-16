@@ -14,7 +14,6 @@ app/src/web/Chart.min.js
 app/src/web/Chart.min.js
 app/src/web/Chart-React-Native.js
 app/src/web/view.html
-android/app/src/main/assets/index.android.bundle
 **/.DS_Store
 android/app/build/outputs/apk/app-debug.apk
 android/app/build/outputs/apk/app-debug-unaligned.apk

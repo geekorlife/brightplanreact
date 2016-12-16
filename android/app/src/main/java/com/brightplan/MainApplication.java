@@ -4,9 +4,8 @@ import android.app.Application;
 import android.util.Log;
 
 import com.facebook.react.ReactApplication;
-import com.mehcode.reactnative.splashscreen.SplashScreenPackage;
-import com.rnfs.RNFSPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
+import com.mehcode.reactnative.splashscreen.SplashScreenPackage;
 import com.horcrux.svg.RNSvgPackage;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
@@ -29,9 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new SplashScreenPackage(),
-            new RNFSPackage(),
             new VectorIconsPackage(),
+            new SplashScreenPackage(),
             new RNSvgPackage()
       );
     }

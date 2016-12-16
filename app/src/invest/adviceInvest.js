@@ -11,8 +11,7 @@ const labelInvest = ['Bonds', 'Stocks', 'Mutual Funds', 'Forex', 'Real Estate'];
 const styles = StyleSheet.create({
     title:{
         fontWeight: '500',
-        textAlign: 'center',
-        color:'white'
+        textAlign: 'center'
     },
     text: {
         justifyContent: 'center',
@@ -29,7 +28,6 @@ class advice extends React.Component{
 
     rendAdvice(){
         return this.props.currentInvestment.map((v, i) => {
-            console.log('this.props.adviceInvestment[i]',this.props.adviceInvestment[i]);
             return (
                 <View  key={i} style={{flex:1, flexDirection:'row'}}>
                     <View style={{flex:1}}><Text style={{fontWeight:'500'}}>{labelInvest[i]}</Text></View>
@@ -44,11 +42,10 @@ class advice extends React.Component{
         
         return (
             <View> 
-
                 <Text style={{textAlign :'center', fontWeight: '600',margin:5}}>
                     We advice you to follow this investment:
                 </Text>
-                <View style={{backgroundColor:'#ffffff',paddingBottom:5,marginLeft:5,marginRight:5,paddingLeft:5,borderRadius:3}}>
+                <View style={this.props.styles}>
 
                     <View  style={{flexDirection:'row'}}>
                         <View style={{flex:1}}></View>

@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/rn-splash-screen/unspecified/jars/classes.jar"
+        jar="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/exploded-aar/Brightplan/react-native-vector-icons/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e8593d3819d53d16e156a4c4117a5400f0f760ad">
-        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-cb97c711beb332bbe8fc614ab608738730cbde38.jar" />
+        sha1="82dc9606b3ea7f8a0e31e66f774fe9655770b9f1">
+        <dex dex="/Users/user/Web/brightplanreactGIT/android/app/build/intermediates/pre-dexed/debug/classes-5608300cf1d37adf4538d4c40438a231aa831315.jar" />
     </item>
 
 </items>

@@ -4,8 +4,10 @@ import FormInput from './formInput';
 import AdviceInvest from './adviceInvest';
 import { chartState, itemsTxt } from './defaultState';
 import { Pie } from 'react-native-pathjs-charts';
+import { Card } from 'react-native-material-ui';
+
 import ReactNative from 'react-native';
-import {PostMessage, StringToData} from './postWebViewMsg';
+import { PostMessage, StringToData } from './postWebViewMsg';
 const {
     Text,
     StyleSheet,
@@ -40,9 +42,18 @@ const getData = () => {
 
     //  Create investment txt
     const instruction = adviceInvestment.map((a, i) => {
-        let txt = 'Remove $' + (currentInvestment[i] - a) + ' from ' + label[i];
+        let txt = (
+            <View style={styles.viewTxt} key={i}>
+                <Text style={styles.textLeft}>{label[i]} : </Text>
+                <Text style={styles.textRight}>Remove $ {(currentInvestment[i] - a)}</Text>
+            </View>
+        );
         if (a > currentInvestment[i]) {
-            txt = 'Add $' + (a - currentInvestment[i]) + ' to ' + label[i];
+            txt = (
+                <View style={styles.viewTxt} key={i}>
+                    <Text style={styles.textLeft}>{label[i]} : </Text>
+                    <Text style={styles.textRight}>Add $ {(a - currentInvestment[i])}</Text>
+                </View>);
         }
         return txt;
     });
@@ -62,22 +73,65 @@ const getData = () => {
     };
 };
 
+/**
+ * Main Charts labels
+ */
 const labelInvest = [
-    {label:'Bonds', color:'#FF6384'}, 
-    {label:'Stocks', color:'#36A2EB'}, 
-    {label:'Mutual Funds', color:'#FFCE56'}, 
-    {label:'Forex', color:'#AF3EDD'}, 
-    {label:'Real Estate', color:'#00EF1C'}
+    { label: 'Bonds', color: '#FF6384' },
+    { label: 'Stocks', color: '#36A2EB' },
+    { label: 'Mutual Funds', color: '#FFCE56' },
+    { label: 'Forex', color: '#AF3EDD' },
+    { label: 'Real Estate', color: '#00EF1C' }
 ];
 
 const styles = StyleSheet.create({
     title: {
         fontWeight: '500'
     },
+    legend: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    charts: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    webview: {
+        backgroundColor: 'white',
+        height: width / 2.1,
+        width: width / 2.1
+    },
     text: {
         justifyContent: 'center',
         flexDirection: 'row',
         flexWrap: 'wrap'
+    },
+    viewCard: {
+        backgroundColor: '#eeeeee',
+        paddingBottom: 5,
+        paddingTop: 5,
+        marginLeft: 7,
+        marginRight: 7,
+        paddingLeft: 5,
+        borderRadius: 3
+    },
+    textCard: {
+        
+    },
+    viewTxt: {
+        flexDirection: 'row',
+        flex: 1,
+    },
+    textLeft:{
+        flex: 0.4,
+        fontWeight: '500',
+        textAlign: 'left'
+    },
+    textRight:{
+        flex: 0.6,
+        textAlign: 'center'
     }
 });
 
@@ -154,20 +208,23 @@ class pieInvest extends React.Component {
             ),
             instruction: data.instruction
         });
-        
+
         if (!this.bindView && this.refs[WEBVIEW_REF2]) {
             this.refs[WEBVIEW_REF2].reload();
             this.bindView = PostMessage(this.refs[WEBVIEW_REF2]);
         }
 
-        setTimeout(function(){
-            if(that.bindView)
+        setTimeout(function () {
+            if (that.bindView)
                 that.bindView.postMessage(that.state.adviceData.datasets[0].data);
-        },0);
+        }, 0);
     }
 
+    /**
+     * On update Component
+     * If current investment change, update local state
+     */
     componentWillUpdate() {
-        console.log('Component PIE WILL UPDATEEEE');
         const storeData = store.getState();
         if (storeData.currentInvestment) {
 
@@ -195,29 +252,32 @@ class pieInvest extends React.Component {
         let adviceInvestment = this.state.adviceData;
 
         const instruction = this.state.instruction.map((t, i) => {
-            return (<Text key={i}>{t}</Text>)
+            return (
+                <View style={styles.textCard} key={i}>
+                {t}
+                </View>)
         });
 
         let piedata = StringToData(currentInvestment.datasets[0].data);
         let pieAdvice = StringToData(adviceInvestment.datasets[0].data);
 
-        const legend = labelInvest.map( (l,i) => {
+        const legend = labelInvest.map((l, i) => {
             const stle = {
-                backgrd:{
+                backgrd: {
                     backgroundColor: l.color,
-                    width: width/5,
-                    height:20,
+                    width: width / 5,
+                    height: 20,
                     borderColor: 'white',
                     borderStyle: 'solid',
                     borderWidth: 1,
                     paddingTop: 2,
                     paddingLeft: 3
                 },
-                txt:{
+                txt: {
                     color: 'white',
                     fontSize: 10
                 }
-                
+
             }
             return (
                 <View style={stle.backgrd} key={i}><Text style={stle.txt}>{l.label}</Text></View>
@@ -225,43 +285,27 @@ class pieInvest extends React.Component {
         })
         return (
             <ScrollView>
-                <View style={{
-                    flex: 1,
-                    flexDirection: 'row',
-                    justifyContent: 'space-between',
-                }}>
+                <View style={styles.legend}>
                     {legend}
                 </View>
-                <View style={{
-                    flex: 1,
-                    flexDirection: 'row',
-                    justifyContent: 'space-between',
-                }}>
+                <View style={styles.charts}>
                     <View>
                         <Text>Your current investment</Text>
                         <WebView
                             ref={WEBVIEW_REF}
-                            style={{
-                                backgroundColor: 'white',
-                                height: width / 2,
-                                width: width / 2
-                            }}
-                            source={{ uri: 'file:///android_asset/pierisk.html'}}
+                            style={styles.webview}
+                            source={{ uri: 'file:///android_asset/pierisk.html' }}
                             injectedJavaScript={piedata}
                             onMessage={this.respondToOnMessage}
                             />
 
                     </View>
                     <View>
-                        <Text>Advice for a {itemsTxt[this.state.currentRiskLevel].toLowerCase()} risk</Text>
+                        <Text>Advice for a {itemsTxt[this.state.currentRiskLevel].toLowerCase()}risk</Text>
                         <WebView
                             ref={WEBVIEW_REF2}
-                            style={{
-                                backgroundColor: 'white',
-                                height: width / 2,
-                                width: width / 2
-                            }}
-                            source={{ uri: 'file:///android_asset/pierisk.html'}}
+                            style={styles.webview}
+                            source={{ uri: 'file:///android_asset/pierisk.html' }}
                             injectedJavaScript={pieAdvice}
                             onMessage={this.respondToOnMessage}
                             />
@@ -271,11 +315,14 @@ class pieInvest extends React.Component {
                     <AdviceInvest
                         currentInvestment={currentInvestment.datasets[0].data}
                         adviceInvestment={adviceInvestment.datasets[0].data}
+                        styles={styles.viewCard}
                         />
-                    <Text style={{textAlign :'center', fontWeight: '600',margin:10}}>
+                    <Text style={{ textAlign: 'center', fontWeight: '600', margin: 10 }}>
                         Investment instructions:
                     </Text>
-                    {instruction}
+                    <View style={styles.viewCard}>
+                        {instruction}
+                    </View>
                 </View>
             </ScrollView>
         )
@@ -290,6 +337,7 @@ class pieInvest extends React.Component {
         }
 
         let rnd = this.rendCharts;
+
         if (amountval < 6) {
             rnd = () => (
                 <View>

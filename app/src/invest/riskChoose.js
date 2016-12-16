@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
     },
     button:{
-        elevation: 4,
+        elevation: 1,
         backgroundColor: COLOR.blue500,
         borderRadius: 2,
         width: width*0.9,
